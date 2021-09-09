@@ -17,7 +17,7 @@ import java.util.Properties;
  *
  * @author Alfredo Estrada
  */
-@Component
+
 public class LocalDBLauncherConfiguration {
     private static final Logger logger = Logger.getLogger(LocalDBLauncherConfiguration.class);
     static String runMode;
@@ -35,10 +35,10 @@ public class LocalDBLauncherConfiguration {
     
     public static final String SYSTEM_ERROR     = "SYSTEM_ERROR";
     public static final String SYSTEM_NOT_READY = "SYSTEM_NOT_READY";
-    
-    private static final String ACTION_INSTALL_AND_WORK_DERBY_DB     = "INSTALL_AND_WORK_DERBY_DB";
-    private static final String ACTION_RE_INSTALL_AND_WORK_DERBY_DB  = "RE_INSTALL_AND_WORK_DERBY_DB";
-    private static final String ACTION_REMOVE_ALL_DERBY_DB           = "REMOVE_ALL_DERBY_DB";
+
+    public static final String ACTION_INSTALL_AND_WORK_DERBY_DB     = "INSTALL_AND_WORK_DERBY_DB";
+    public static final String ACTION_RE_INSTALL_AND_WORK_DERBY_DB  = "RE_INSTALL_AND_WORK_DERBY_DB";
+    public static final String ACTION_REMOVE_ALL_DERBY_DB           = "REMOVE_ALL_DERBY_DB";
     
     public static String getSMART_QUEUE_SYSYTEM_STATUS() {
         return SMART_QUEUE_SYSYTEM_STATUS;

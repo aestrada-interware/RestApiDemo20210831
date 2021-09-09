@@ -1,4 +1,4 @@
-package com.restexample.restcalculator.dao;
+package com.interware.restapi.dao;
 
 import com.interware.restapi.dto.Usuario;
 import java.util.List;
